@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+#section {
+    width: 100%;
+    height: 100vh;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px black;
+}
+
+section header .logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+section header .logo span {
+    color: #c3073f;
+}
+
+section header ul {
+    list-style: none;
+}
+
+section header ul li {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 20px;
+}
+
+section header ul li a {
+    color: #c3073f;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+section header ul li a:hover {
+    border: 1px solid #c3073f;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+section header p {
+    cursor: pointer;
+    padding: 10px 25px;
+    border: 1px solid #c3073f;
+    border-radius: 30px;
+    transition: 0.3s;
+    color: #c3073f;
+}
+
+section header p:hover {
+    color: #242428;
+    background: #c3073f;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #242428;
+    z-index: -1;
+}
+
+section .texts h1 {
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    font-size: 100px;
+    color: black;
+}
+
+section .texts h1 span {
+    color: #c3073f;
+}
+
+section .texts p {
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    line-height: 26px;
+    text-align: justify;
+}
+
+section .btn {
+    position: relative;
+    padding-top: 450px;
+    padding-right: 155px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+section .btn .tos {
+    background: #c3073f;
+    color: #242428;
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+section .btn p {
+    padding: 10px 25px;
+    background: none;
+    border: 2px solid #c3073f;
+    cursor: pointer;
+}
+
+section .btn a{
+    text-decoration: none;
+    color:#242428;
+}
+
+section .background_image img {
+    width: 750px;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    margin-left: 60px;
+}
+
+section .texts h3 {
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    color: black;
+}
